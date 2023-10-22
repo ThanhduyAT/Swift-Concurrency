@@ -11,6 +11,7 @@
 		CE6D9BD62AE41D3D00480BA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BD52AE41D3D00480BA6 /* ContentView.swift */; };
 		CE6D9BD82AE41D3E00480BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6D9BD72AE41D3E00480BA6 /* Assets.xcassets */; };
 		CE6D9BDB2AE41D3E00480BA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6D9BDA2AE41D3E00480BA6 /* Preview Assets.xcassets */; };
+		CE6D9BE42AE41DD700480BA6 /* DownloadImageAsyn.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6D9BE32AE41DD700480BA6 /* DownloadImageAsyn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CE6D9BD52AE41D3D00480BA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE6D9BD72AE41D3E00480BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6D9BDA2AE41D3E00480BA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE6D9BE32AE41DD700480BA6 /* DownloadImageAsyn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAsyn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CE6D9BD32AE41D3D00480BA6 /* SwiftConcurrencyApp.swift */,
 				CE6D9BD52AE41D3D00480BA6 /* ContentView.swift */,
+				CE6D9BE32AE41DD700480BA6 /* DownloadImageAsyn.swift */,
 				CE6D9BD72AE41D3E00480BA6 /* Assets.xcassets */,
 				CE6D9BD92AE41D3E00480BA6 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6D9BE42AE41DD700480BA6 /* DownloadImageAsyn.swift in Sources */,
 				CE6D9BD62AE41D3D00480BA6 /* ContentView.swift in Sources */,
 				CE6D9BD42AE41D3D00480BA6 /* SwiftConcurrencyApp.swift in Sources */,
 			);
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
